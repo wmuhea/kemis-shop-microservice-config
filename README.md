@@ -1,0 +1,1 @@
+# kemis-shop-microservice-config
