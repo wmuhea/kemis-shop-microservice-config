@@ -9,6 +9,7 @@ eureka:
 
 zuul:
   ignored-services: "*"
+  prefix: /api
   routes:
     catalogservice: /product/**
     orderservice: /order/**
