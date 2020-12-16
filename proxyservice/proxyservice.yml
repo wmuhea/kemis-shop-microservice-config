@@ -11,9 +11,9 @@ zuul:
   ignored-services: "*"
   prefix: /api
   routes:
-    catalogservice: /product/**
-    orderservice: /order/**
-    accountservice: /account/**
+    catalogservice: /products/**
+    orderservice: /orders/**
+    accountservice: /accounts/**
 
 # we can change the default to service id to make
 # the change specific to a single service
