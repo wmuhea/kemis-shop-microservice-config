@@ -35,10 +35,9 @@ hysterix:
         # Change to THREAD, and the rest of the configuration at the beginning of SEMAPHORE can be removed
         strategy: THREAD
         thread:
-          # By default 1000
-          timeoutInMilliseconds: 2000
-		  
- eureka:
+# By default 1000
+           timeoutInMilliseconds: 2000
+eureka:
    instance:
      preferIpAddress: true
    client:
