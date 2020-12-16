@@ -5,6 +5,11 @@ spring:
      mongodb:
         host: "localhost"
         port: "27017"
+   rabbitmq:
+     host: localhost
+     port: 5672
+     username: guest
+     password: guest
 
 # for actuator end points
 management:
