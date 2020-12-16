@@ -14,6 +14,21 @@ zuul:
     catalogservice: /product/**
     orderservice: /order/**
     accountservice: /account/**
+
+# we can change the default to service id to make
+# the change specific to a single service
+hystrix:
+   command:
+      default
+	     execution:
+		    isolation:
+			    thread:
+				 timeoutInMilliseconds: 2500 
+
+#Ribbon time out => setting ribbon timeout
+catalogservice:
+   ribbon:
+      ReadTimeout: 7000
    
 
 # for actuator end points
