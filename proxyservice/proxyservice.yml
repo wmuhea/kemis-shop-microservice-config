@@ -18,17 +18,17 @@ zuul:
 # we can change the default to service id to make
 # the change specific to a single service
 hystrix:
-   command:
-      default
-         execution:
-           isolation:
-              thread:
-                 timeoutInMilliseconds: 2500 
+  command:
+    default
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2500 
 
 #Ribbon time out => setting ribbon timeout
 catalogservice:
-   ribbon:
-      ReadTimeout: 7000
+  ribbon:
+    ReadTimeout: 7000
    
 
 # for actuator end points
@@ -37,6 +37,7 @@ management:
     web:
       exposure:
         include: "*"
+#Rabbbit mq brocker config data for dynamic refresh of configuration
 spring:
   rabbitmq:
     host: localhost
