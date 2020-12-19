@@ -19,7 +19,7 @@ zuul:
 # the change specific to a single service
 hystrix:
   command:
-    default
+    default:
       execution:
         isolation:
           thread:
