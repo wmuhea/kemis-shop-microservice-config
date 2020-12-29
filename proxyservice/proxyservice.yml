@@ -11,7 +11,7 @@ zuul:
   ignored-services: "*"
   prefix: /api
   routes:
-    catalogservice: /products/**
+    catalogservice: /catalogs/**
     orderservice: /orders/**
     accountservice: /accounts/**
 
