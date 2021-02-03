@@ -35,7 +35,7 @@ spring:
               user:
                 name: ${spring.security.user.name}
                 password: ${spring.security.user.password}
-	       serviceBaseUrl: http://localhost:8082
+           serviceBaseUrl: http://localhost:8082
 server:
   forward-headers-strategy: "framework"
 

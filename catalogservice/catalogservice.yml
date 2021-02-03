@@ -33,8 +33,8 @@ spring:
         url: http://localhost:9090
         username: admin
         password: client
-		instance:
-			serviceBaseUrl: http://localhost:8082
+        instance:
+          serviceBaseUrl: http://localhost:8082
 feign:
   hystrix:
     enabled: true
